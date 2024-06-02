@@ -886,8 +886,8 @@ body {
     text-transform: none;
   }
 
-  .header__menu-navigation a:hover,
-  .header__menu-navigation a::after {
+  .header__navigation a:hover,
+  .header__navigation a::after {
     color: var(--orange);
   }
 
@@ -895,15 +895,14 @@ body {
     display: flex;
   }
 
-  .header__socials .icon {
+  .header__icon {
     width: 18px;
     height: 18px;
     margin-right: 18px;
-    fill: var(--black);
-    stroke: var(--black);
+    stroke: black;
   }
 
-  .header__socials .icon:hover {
+  .header__icon:hover {
     fill: var(--orange);
     stroke: var(--orange);
   }
@@ -942,7 +941,7 @@ body {
 
   .hero__buttons {
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: auto;
   }
 
